@@ -8,7 +8,6 @@ window.onload = function () {
         cd_secs: document.getElementById("cd-secs"),
         cd_timetil: document.getElementById("cd-timetil"),
     };
-
     elements.cd_title.innerHTML += " " + (new Date().getFullYear() + 1);
     var endDate = new Date(new Date().getFullYear() + 1 + "/1/1"),
         sec = 1000,
